@@ -1,0 +1,104 @@
+
+@import "../vendor/bootstrap-5.0.2/scss/bootstrap";
+
+@import "../icons/bootstrap/glyphicon";
+@import "../icons/doctor/doctor";
+@import "../icons/et-line/et-line";
+@import "../icons/feather/feather";
+@import "../icons/FontAwesome/font-awesome";
+@import "../icons/icomoon/iconmoon";
+@import "../icons/icomoon2/custom-icon";
+@import "../icons/inicons/insightin-icons";
+@import "../icons/others/others";
+@import "../icons/survey/survey";
+
+@import "./seetings/seetings";
+
+@import "./base/base";
+@import "./blocks/blocks";
+@import "./components/components";
+@import "./pages/pages";
+
+
+
+.inx-header{
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 7%);
+    box-shadow: 0 0 15px rgba(0, 0, 0,  7%);
+    position: sticky;
+    top: 0;
+}
+.inx-header__logo{
+    a{
+        display: inline-block;
+        height: 50px;
+        padding: 2px 13px;
+    }
+    background-color: $primary-color;
+    width: 80px;
+    img{
+        height: 50px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.inx-header__title{ 
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.inx-header-left{
+    align-items: center;
+}
+.inx-header__title{
+    padding-left: 15px;
+}
+
+
+.inx-documentation-nav{
+    background-color: #fff;
+    padding: 30px 30px;
+    position: sticky;
+    top: 70px;
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+        li{
+            a{
+                font-size: 18px;
+                text-decoration: none;
+                color: #333;
+                font-weight: 600;
+            }
+            ul{
+                margin-bottom: 15px;
+                padding-left: 20px;
+                li a{
+                    font-size: 14px;
+                    color: #333;
+                    display: block;
+                    font-weight: 400;
+                    padding-bottom: 4px;
+                }
+            }
+        }
+    }
+    
+}
+
+.inxe-color-box{
+    margin-bottom: 30px;
+    span{
+        width: 100%;
+        height: 50px;
+        display: block;
+        background-color: #333;
+        margin-bottom: 5px;
+    }
+}
