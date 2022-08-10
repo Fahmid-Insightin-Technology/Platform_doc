@@ -1,0 +1,15 @@
+.inx-dropdown{
+
+    .dropdown-toggle::after {
+        content: "\f107"!important;
+        //background-image:  unset;
+        //position: absolute;
+        //right: 18px;
+        font-family: "FontAwesome";
+        //color: #000;
+        //font-size: 20px;
+        //top: 7px;
+    }
+
+}
+

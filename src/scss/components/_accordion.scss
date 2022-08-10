@@ -1,0 +1,45 @@
+.inx-accordion {
+    .accordion-item{
+        border: none;
+        margin-bottom: 10px;
+    }
+   .accordion-button{
+       background-color: $color-ghost-white;
+       font-size: 18px;
+       font-weight: 500;
+       margin: 0;
+       cursor: pointer;
+       color: $color-gray;
+       padding: 10px 20px;
+   }
+    .accordion-body{
+      background-color: $color-ghost-white;
+      padding: 10px 20px;
+    }
+
+    .accordion-button:focus{
+        outline: none!important;
+        border: none!important;
+        box-shadow:none!important;
+    }
+
+    .accordion-button::after {
+        content: "\f107";
+        background-image:  unset;
+        position: absolute;
+        right: 18px;
+        font-family: "FontAwesome";
+        color: #000;
+        font-size: 20px;
+        top: 7px;
+    }
+  .accordion-button:not(.collapsed)::after {
+    background-image: unset!important;
+    transform: unset;
+    content: "\f106";
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow:unset;
+  }
+}
+

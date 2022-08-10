@@ -5,7 +5,11 @@
     padding: 9px 16px;
     font-size: 14px;
     font-weight: 400;
-    color: #fff;
+    color: $color-white;
     text-decoration: none;
     border: 1px solid $primary-color;
+}
+.inx-button:hover{
+   text-decoration: none;
+    color: $color-white;
 }
