@@ -103,5 +103,36 @@
     }
 }
 
+:not(pre)>code[class*=language-], pre[class*=language-] {
+    margin-bottom: 40px!important;
+}
 
+h4.demo-title {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+code[class*=language-], pre[class*=language-] {
+    padding: 20px 0px 0px 0px !important;
+    margin: 40px 0px 0px 0px!important;
+}
+.demo_section {
 
+    //padding: 25px!important;
+    margin: 60px 0px!important;
+}
+p.demo_section_title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.inx-card.demo-card{
+    padding: 40px;
+
+}
+.demo-bold {
+    margin-bottom: 10px;
+    display: block;
+}

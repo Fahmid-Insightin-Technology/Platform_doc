@@ -126,4 +126,5 @@ watch('./src/scss/**/*.scss', series(scss));
 watch('./src/images/**/*', series(images));
 watch('./src/js/**/*.js', series(js));
 
-exports.default = series(file_clean, html, scss, js, js_demo, css_demo, images, icons, fonts, server);
+exports.default = series( html, scss, js, js_demo, css_demo, images, icons, fonts, server);
+// exports.default = series(file_clean, html, scss, js, js_demo, css_demo, images, icons, fonts, server);
